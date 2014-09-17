@@ -9,6 +9,14 @@ h1 {
 	color:#D61128;
 	background-color:#222222;
 	}
+#sidebar
+{
+    float: left;
+    width: 250px;
+    background: #ccc;
+    min-height: 100%;
+}
+	
 	
 h2 {
 	font-size:28px;
