@@ -5,9 +5,9 @@ body {
 	}
 	
 h1 {
+	width:100%;
+	height:150px;
 	font-size:32px;
 	color:#D61128;
 	background-color:#222222;
-	width:100%;
-	height:150px;
 	}
