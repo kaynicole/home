@@ -1,1 +1,11 @@
-
+body {
+	font-family: tahoma, Arial, sans-serif;
+	background-color:#000000;
+	color:#c0c0c0;
+	}
+	
+h1 {
+	font-size:32px;
+	color:#D61128;
+	background-color:#222222;
+	}
