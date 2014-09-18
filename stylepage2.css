@@ -43,7 +43,7 @@ header {
     float: left;
     width: 200px;
     height: 75px;
-    background: url(images/logo.png) no-repeat center;
+    background: url("http://www.vectortemplates.com/raster/batman-logo-big.gif") no-repeat center;
     display: block;
 
 }
