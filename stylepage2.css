@@ -2,12 +2,11 @@ body {
 	font-family: tahoma, Arial, sans-serif;
 	background-color:#000000;
 	color:#c0c0c0;
-	width:100%;
-	height:100px;
 	}
 	
 h1 {
 	font-size:32px;
+	width:400px;
 	color:#D61128;
 	background-color:#222222;
 	}
