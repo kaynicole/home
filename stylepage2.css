@@ -4,28 +4,7 @@ body {
 	color:#c0c0c0;
 	}
 	
-h1 {
-	font-size:32px;
-	color:#D61128;
-	background-color:#222222;
-	}
-	
-h2 {
-	font-size:28px;
-	color:#336699;
-	background-color:#222222;
-	}
-h3 {
-	font-size:24px;
-	color:#22ffff;
-	background-color:#222222;
-	}
-h4, h5, h6 {
-	font-size:18px;
-	color:#ff88ff;
-	background-color:#222222;
-	}
-	
+<style>
 .menu ul { display: none; } /* Hide before plugin loads */
 li { list-style: none; } 
 a { text-decoration: none; } 
@@ -53,7 +32,30 @@ a { text-decoration: none; }
     color: #fff;
     text-decoration: none;
 }
-
+</style>
+	
+h1 {
+	font-size:32px;
+	color:#D61128;
+	background-color:#222222;
+	}
+	
+h2 {
+	font-size:28px;
+	color:#336699;
+	background-color:#222222;
+	}
+h3 {
+	font-size:24px;
+	color:#22ffff;
+	background-color:#222222;
+	}
+h4, h5, h6 {
+	font-size:18px;
+	color:#ff88ff;
+	background-color:#222222;
+	}
+	
 
 a {
 	text-decoration:none;
