@@ -6,9 +6,9 @@ body {
 	
 h1 {
 	font-size:32px;
-	width:400px;
 	color:#D61128;
 	background-color:#222222;
+	background-width:200px;
 	}
 	
 h2 {
