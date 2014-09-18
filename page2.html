@@ -8,10 +8,17 @@
 </head>
 <body>
 
-  <header>
-	  <h1 id="header">
-<a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
-</h1>
+<div id="header">
+ <div id="headerimg">
+   <h1>
+    <a href="<?php echo get_option('home'); ?>">
+       <?php bloginfo('name'); ?></a>
+   </h1>
+     <div class="description">
+       <?php bloginfo('description'); ?>
+     </div>
+  </div>
+</div>
 	  <p>A repository for all of the course materials I prepare for WRA 210</p>
   </header>
   
