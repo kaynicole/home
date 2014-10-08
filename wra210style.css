@@ -1,7 +1,7 @@
 body {
 	font-family: tahoma, Arial, sans-serif;
-	background-color:#DFD5E0;
-	color:#000000;
+	background-color:#000000;
+	color:#FFFFFF;
 	}
 	
 h1 {
@@ -28,7 +28,7 @@ h4, h5, h6 {
 
 a {
 	text-decoration:none;
-	color:#000000;
+	color:#FFFFFF;
 	}
 	
 a:hover {
