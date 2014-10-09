@@ -8,9 +8,10 @@ header {
 	font-size:32px;
 	color:#D61128;
 	background-image:url("/module9/header.png");
-	background-position: right center;
+	background-position: top center;
 	width:100%;
 	height: 150px;
+	background-repeat: none;
 	}
 	
 	
