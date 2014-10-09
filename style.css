@@ -12,12 +12,6 @@ header {
 	height: 150px;
 	}
 	
-.circle {
-	border-radius: 50%;
-	width: 200px;
-	height: 200px; 
-	/* width and height can be anything, as long as they're equal */
-}
 	
 /* h1 {
 	font-size:32px;
