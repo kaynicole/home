@@ -16,9 +16,10 @@ header {
 	
 #sidebar {
   position: fixed;
-  top: 40px;
+  top: 100px;
   left: 40px;
-  width: 200px;
+  width: 150px;
+  padding: 4px 4px 4px 4px;
   border:1px solid white;
 }
  
