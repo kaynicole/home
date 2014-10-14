@@ -1,12 +1,12 @@
 body {
 	font-family: tahoma, Arial, sans-serif;
-	background-color:#000000;
+	background-color:#e3d4f1;
 	color:#FFFFFF;
 	}
 	
 header {
 	font-size:32px;
-	color:#D61128;
+	color:#e3d4f1;
 	background-image:url("/module9/header.png");
 	background-position: top center;
 	width:100%;
@@ -17,6 +17,7 @@ header {
 	
 #sidebar {
   top: 260px;
+  background-color:#d7a6de;
   left: 0px;
   width: 200px;
   height: 300px;
