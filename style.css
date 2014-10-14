@@ -64,6 +64,7 @@ a:hover {
 	color:#00ff00;
 	}
 footer {
+	padding-top: 600px;
 	font-size:12px;
 	background-color: violet;
 	position: bottom right;
