@@ -63,3 +63,8 @@ a {
 a:hover {
 	color:#00ff00;
 	}
+footer {
+	position: fixed;
+	float: bottom right;
+	
+}
