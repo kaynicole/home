@@ -30,7 +30,7 @@ ul li{
         line-height: 21px;
     }
 ul li a{
-        display: none;
+        display: inline;
         padding: 5px 10px;
         color: #333;
         background: #f2f2f2;
@@ -41,7 +41,7 @@ ul li a:hover{
         background: #939393;
     }
 ul li ul{
-        display: none;
+        display: block;
     }
 ul li:hover ul{
         display: block; /* display the dropdown */
