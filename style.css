@@ -23,7 +23,7 @@ ul{
         list-style: none;
     }
 ul li{
-        float: left;
+        float: center;
         width: 100px;
         text-align: center;
         line-height: 21px;
