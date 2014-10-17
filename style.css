@@ -41,7 +41,7 @@ ul li a:hover{
         background: #939393;
     }
 ul li ul{
-        display: block;
+        display: none;
     }
 ul li:hover ul{
         display: block; /* display the dropdown */
