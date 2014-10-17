@@ -5,6 +5,8 @@ body {
 	}
 	
 header {
+        position:absolute;
+        top:0;
 	font-size:32px;
 	color:#e3d4f1;
 	background-image:url("/module9/header.png");
