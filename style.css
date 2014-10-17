@@ -19,18 +19,18 @@ header {
 	
 	
 ul{
-        padding: 2px;
-        list-style: circle;
+        padding: 0px;
+        list-style: none;
     }
 ul li{
         float: left;
         width: 100px;
         text-align: center;
-        padding:2px;
+        padding:0px;
         line-height: 21px;
     }
 ul li a{
-        display: block;
+        display: inline;
         padding: 5px 10px;
         color: #333;
         background: #f2f2f2;
