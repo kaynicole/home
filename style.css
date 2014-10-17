@@ -19,7 +19,7 @@ header {
 	
 	
 ul{
-        padding: 5px;
+        padding: 0px;
         list-style: none;
     }
 ul li{
@@ -30,7 +30,7 @@ ul li{
         line-height: 21px;
     }
 ul li a{
-        display: inline;
+        display: block;
         padding: 5px 10px;
         color: #333;
         background: #f2f2f2;
