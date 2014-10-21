@@ -12,7 +12,7 @@ header {
 	background-image:url("/module9/header.png");
 	background-color:#000000;
 	background-position: top center;
-	background-repeat: repeat y;
+	background-repeat: repeat x;
 		}
 		
 /*#sidebar {
