@@ -14,7 +14,7 @@ header {
 	background-repeat: repeat;
 		}
 		
-#sidebar {
+/*#sidebar {
   	top: 500px;
   	margin-top:400px;
 	background-color:#d7a6de;
@@ -23,7 +23,7 @@ header {
   	height: 300px;
   	padding: 4px 4px 4px 4px;
   	border:1px solid white;
-}
+}*/
  
 #content {
 	 margin: 0 40px 40px 280px;
