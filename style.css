@@ -9,10 +9,10 @@ header {
 	position:absolute;
 	width:100%;
 	height:200px;
-	background-image:url("/module9/header.png");
+	background-image:url("/module9/header.png"), url("http://fc05.deviantart.net/fs70/f/2010/069/8/e/background_black_II_by_Artbox_DA.jpg");
 	background-color:#000000;
 	background-position: top center;
-	background-repeat: repeat x;
+	background-repeat: no-repeat, repeat;
 		}
 		
 /*#sidebar {
