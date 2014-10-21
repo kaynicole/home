@@ -11,10 +11,9 @@ header {
 	height:200px;
 	color:#e3d4f1;
 	background-image:url("/module9/header.png");
-	background-size:100%;
         background-color:#131354;
 	background-position: top center;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 		}
 		
 #sidebar {
