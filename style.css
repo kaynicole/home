@@ -4,6 +4,16 @@ body {
 	background-color:#E3D4F1;
 	color:#FFFFFF;
 		}
+		
+ nav {
+	font-size:32px;
+	position:static center;
+	margin-top:120px;
+	text-decoration: none;
+	font-color: white;
+	
+}
+
 header {
 	top:0;
 	position:absolute;
@@ -14,14 +24,6 @@ header {
 	background-position: top center;
 	background-repeat: no-repeat, repeat;
 		}
- nav {
-	font-size:32px;
-	position:static center;
-	margin-top:120px;
-	text-decoration: none;
-	font-color: white;
-	
-}
 		
 /*#sidebar {
   	top: 500px;
