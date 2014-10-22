@@ -1,4 +1,4 @@
 $(document).ready(function() {
     $("nav").click(function);
-    .button()
+    $(this ).button( "enable" );
 }
