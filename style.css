@@ -13,15 +13,19 @@ header {
 	background-color:#000000;
 	background-position: top center;
 	background-repeat: no-repeat, repeat;
+	
+	font-size:32px;
+	text-decoration:none;
+	font-color:white;
 		}
-nav {
+/* nav {
 	font-size:32px;
 	position:static center;
 	margin-top:140px;
 	text-decoration: none;
 	font-color: white;
 	
-}
+} */
 		
 /*#sidebar {
   	top: 500px;
