@@ -1,7 +1,4 @@
-$(function() {
-    $( "input[type=submit], a, button" )
-      .button()
-      .click(function( event ) {
-        event.preventDefault();
-      });
-  });
+$(document).ready(function() {
+    $("header").click(function);
+    .button()
+}
