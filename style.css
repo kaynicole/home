@@ -16,7 +16,8 @@ header {
 		}
 nav {
 	font-size:32px;
-	position:absolute;
+	position:static center;
+	margin-top:100px;
 	
 }
 		
