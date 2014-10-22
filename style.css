@@ -7,7 +7,7 @@ body {
 		
  nav {
 	font-size:32px;
-	position:static;
+	position:absolute;
 	margin-top:0px;
 	text-decoration: none;
 	font-color: white;
