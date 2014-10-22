@@ -25,6 +25,10 @@ header {
 	font-color: white;
 	
 }
+
+.nav a:link{
+    color:#FFFFFF;
+}
 		
 /*#sidebar {
   	top: 500px;
