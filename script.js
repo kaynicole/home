@@ -1,6 +1,6 @@
 $(document).ready(function() {  
   
-    $('header').hover(  
+    $('nav').hover(  
   
         function() {  
   
