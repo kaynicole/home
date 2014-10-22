@@ -8,7 +8,7 @@ $(document).ready(function() {
          .stop()  
          .animate({'paddingLeft'    : '25px',  
                      'paddingRight' : '25px',  
-                     '#FFFFFF':'rgba(0,0,0,0.5)'},  
+                     'backgroundColor':'rgba(0,0,0,0.5)'},  
                      'fast');  
         },  
   
@@ -18,15 +18,15 @@ $(document).ready(function() {
          .stop()  
          .animate({'paddingLeft'    : '15px',  
                     'paddingRight'      : '15px',  
-                    '#FFFFFF' :'rgba(0,0,0,0.2)'},  
+                    'backgroundColor' :'rgba(0,0,0,0.2)'},  
                     'fast');  
   
     }).mousedown(function() {  
   
-        $(this).stop().animate({'#FFFFFF': 'rgba(0,0,0,0.1)'}, 'fast');  
+        $(this).stop().animate({'backgroundColor': 'rgba(0,0,0,0.1)'}, 'fast');  
   
     }).mouseup(function() {  
   
-        $(this).stop().animate({'#FFFFFF': 'rgba(0,0,0,0.5)'}, 'fast');  
+        $(this).stop().animate({'backgroundColor': 'rgba(0,0,0,0.5)'}, 'fast');  
     });  
 });  
