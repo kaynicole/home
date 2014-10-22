@@ -16,7 +16,8 @@ header {
 		}
 nav {
 	font-size:32px;
-	position: top center;
+	position:absolute;
+	
 }
 		
 /*#sidebar {
