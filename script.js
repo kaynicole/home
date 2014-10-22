@@ -1,4 +1,4 @@
 $(document).ready(function() {
-    $("header").click(function);
+    $("nav").click(function);
     .button()
 }
