@@ -68,7 +68,7 @@ h4, h5, h6 {
 	background-color:#222222;
 	}
 	
-.nav a:link {
+a.nav:link {
     color:#FFFFFF;
 }
 
