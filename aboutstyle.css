@@ -22,9 +22,11 @@ header {
 	position:absolute center;
 	margin-top:140px;
 	text-decoration: none;
-	font-color: white;
+	font-family: 'Droid Serif', serif;
+	font-color: #FFFFFF;
 	
 }
+
 		
 /*#sidebar {
   	top: 500px;
@@ -66,6 +68,33 @@ h4, h5, h6 {
 	color:#ff88ff;
 	background-color:#222222;
 	}
+	
+/* Navigation */
+	
+a.nav:link {
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+a.nav:visited {
+	color:#FFFFFF;
+}
+
+a.nav:hover {
+	color:#7DD9E7;
+	text-decoration:none;
+}
+
+a.nav:active {
+    color: #FFFFFF;
+}
+
+a.nav:clicked {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+/* End Navigation */
 
 a {
 	text-decoration:underline;
