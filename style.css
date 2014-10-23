@@ -68,9 +68,21 @@ h4, h5, h6 {
 	background-color:#222222;
 	}
 	
+/* Navigation */
+	
 a.nav:link {
     color:#FFFFFF;
 }
+
+a.nav:hover {
+	color:#7DD9E7;
+}
+
+a.nav:clicked {
+	color:#FFFFFF;
+}
+
+/* End Navigation */
 
 a {
 	text-decoration:underline;
