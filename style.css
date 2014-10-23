@@ -81,6 +81,10 @@ a.nav:hover {
 	text-decoration:none;
 }
 
+a.nav:visited {
+	color:#FFFFFF;
+}
+
 a.nav:clicked {
 	color:#FFFFFF;
 	text-decoration:none;
