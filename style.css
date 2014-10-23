@@ -76,22 +76,22 @@ a.nav:link {
     text-decoration:none;
 }
 
+a.nav:visited {
+	color:#FFFFFF;
+}
+
 a.nav:hover {
 	color:#7DD9E7;
 	text-decoration:none;
 }
 
-a.nav:visited {
-	color:#FFFFFF;
+a.nav:active {
+    color: #FFFFFF;
 }
 
 a.nav:clicked {
 	color:#FFFFFF;
 	text-decoration:none;
-}
-
-a.nav:active {
-    color: #FFFFFF;
 }
 
 /* End Navigation */
