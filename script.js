@@ -16,4 +16,12 @@ $(document).ready(function() {
                       'paddingRight'      : '15px',  
                       'backgroundColor' :'rgba(0,0,0,0.2)'},  
                       'fast');  
+                      
+    }).mousedown(function() {  
+            $(this).stop().animate({'backgroundColor': 'rgba(0,0,0,0.1)'}, 'fast');  
+      }).mouseup(function() {  
+            $(this).stop().animate({'backgroundColor': 'rgba(0,0,0,0.5)'}, 'fast');  
+    });  
+});  
+
  
