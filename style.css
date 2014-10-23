@@ -72,14 +72,17 @@ h4, h5, h6 {
 	
 a.nav:link {
     color:#FFFFFF;
+    text-decoration:none;
 }
 
 a.nav:hover {
 	color:#7DD9E7;
+	text-decoration:none;
 }
 
 a.nav:clicked {
 	color:#FFFFFF;
+	text-decoration:none;
 }
 
 /* End Navigation */
