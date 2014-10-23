@@ -90,6 +90,10 @@ a.nav:clicked {
 	text-decoration:none;
 }
 
+a.nav:active {
+    color: #FFFFFF;
+}
+
 /* End Navigation */
 
 a {
