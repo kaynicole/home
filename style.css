@@ -20,7 +20,6 @@ header {
  nav {
 	font-size:32px;
 	position:absolute;
-	text-align:center;
 	margin-top:140px;
 	text-decoration: none;
 	font-family: 'Droid Serif', serif;
@@ -75,24 +74,29 @@ h4, h5, h6 {
 a.nav:link {
     color:#FFFFFF;
     text-decoration:none;
+    text-align:center; 
 }
 
 a.nav:visited {
 	color:#FFFFFF;
+	text-align:center; 
 }
 
 a.nav:hover {
 	color:#7DD9E7;
 	text-decoration:none;
+	text-align:center; 
 }
 
 a.nav:active {
     color: #FFFFFF;
+    text-align:center; 
 }
 
 a.nav:clicked {
 	color:#FFFFFF;
 	text-decoration:none;
+	text-align:center; 
 }
 
 /* End Navigation */
