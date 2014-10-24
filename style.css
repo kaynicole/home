@@ -9,6 +9,7 @@ body {
 header {
 	top:0;
 	position:absolute;
+	text-align:center; 
 	width:100%;
 	height:200px;
 	background-image:url("/module9/header.png"), url("/img/square.png");
