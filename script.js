@@ -23,18 +23,3 @@ $(document).ready(function() {
             $(this).stop().animate({'backgroundColor': 'rgba(0,0,0,0.5)'}, 'fast');  
     });  
 }); 
-
-		$('.myMenu > li').bind('mouseover', openSubMenu);
-		$('.myMenu > li').bind('mouseout', closeSubMenu);
-		
-		function openSubMenu() {
-			$(this).find('ul').css('visibility', 'visible');	
-		};
-		
-		function closeSubMenu() {
-			$(this).find('ul').css('visibility', 'hidden');	
-		};
-				   
-	});
-
- 
