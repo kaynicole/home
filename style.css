@@ -19,7 +19,8 @@ header {
 		
  nav {
 	font-size:32px;
-	position:absolute center;
+	position:absolute;
+	text-align:center;
 	margin-top:140px;
 	text-decoration: none;
 	font-family: 'Droid Serif', serif;
