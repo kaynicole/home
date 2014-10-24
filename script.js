@@ -24,7 +24,6 @@ $(document).ready(function() {
     });  
 });  
 
-*/ stuff */
 
 $(document).ready(function() {
 		$('.myMenu > li').bind('mouseover', openSubMenu);
