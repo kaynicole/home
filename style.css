@@ -27,35 +27,6 @@ header {
 	
 }
 
-/* shit */
-
-#menu {
-margin:0 auto;
-display: inline-block;
-list-style:none;
-padding:0;
-border-top:1 solid #ccc;
-border-left:1 solid #ccc;
-border-bottom:1 solid #ccc;
-}
-
-#menu li {
-float: left;
-}
-
-#menu li a {
-display:block;
-padding:10px 10px;
-text-decoration:none;
-font-weight:bold;
-}   
-
-#menu li a:hover {
-color:#c00;
-}
-
-/* end shit */
-
 		
 /*#sidebar {
   	top: 500px;
