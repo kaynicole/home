@@ -22,6 +22,7 @@ header {
 	position:absolute;
 	margin-top:140px;
 	text-decoration: none;
+	text-align:center;
 	font-family: 'Droid Serif', serif;
 	font-color: #FFFFFF;
 	
@@ -70,10 +71,6 @@ h4, h5, h6 {
 	}
 	
 /* Navigation */
-
-#center {
-	text-align:center;
-}
 	
 a.nav:link {
     color:#FFFFFF;
