@@ -9,7 +9,6 @@ body {
 header {
 	top:0;
 	position:absolute;
-	text-align:center; 
 	width:100%;
 	height:200px;
 	background-image:url("/module9/header.png"), url("/img/square.png");
@@ -71,33 +70,32 @@ h4, h5, h6 {
 	}
 	
 /* Navigation */
+
+#center {
+	text-align:center;
+}
 	
 a.nav:link {
     color:#FFFFFF;
-    text-decoration:none;
-    text-align:center; 
+    text-decoration:none; 
 }
 
 a.nav:visited {
-	color:#FFFFFF;
-	text-align:center; 
+	color:#FFFFFF; 
 }
 
 a.nav:hover {
 	color:#7DD9E7;
-	text-decoration:none;
-	text-align:center; 
+	text-decoration:none; 
 }
 
 a.nav:active {
-    color: #FFFFFF;
-    text-align:center; 
+    color: #FFFFFF; 
 }
 
 a.nav:clicked {
 	color:#FFFFFF;
-	text-decoration:none;
-	text-align:center; 
+	text-decoration:none; 
 }
 
 /* End Navigation */
