@@ -10,10 +10,10 @@ $(document).ready(function() {
 },  
   
         function() {  
-            $(this).css('padding', '5px 25px')  
+            $(this).css('padding', '20px 40px')  
             .stop()  
-            .animate({'paddingLeft'    : '15px',  
-                      'paddingRight'      : '15px',  
+            .animate({'paddingLeft'    : '20px',  
+                      'paddingRight'      : '20px',  
                       'backgroundColor' :'rgba(0,0,0,0.2)'},  
                       'fast');  
                       
