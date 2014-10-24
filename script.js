@@ -23,8 +23,7 @@ $(document).ready(function() {
             $(this).stop().animate({'backgroundColor': 'rgba(0,0,0,0.5)'}, 'fast');  
     });  
 }); 
- 
- $(document).ready(function() {
+
 		$('.myMenu > li').bind('mouseover', openSubMenu);
 		$('.myMenu > li').bind('mouseout', closeSubMenu);
 		
