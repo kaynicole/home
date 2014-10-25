@@ -36,11 +36,6 @@ leftbar {
 	border: 3px solid;
 	word-wrap: break-word;
 }
-
-#leftbar {
-	font-size:12px;
-	font-color:000000;
-}
  
 #content {
 	 margin: 0 40px 40px 280px;
@@ -99,7 +94,7 @@ a:hover {
 	}
 	
 
-footer {
+/* footer {
 	font-size:12px;
         bottom:0px;
 	background-color: white;
@@ -108,4 +103,4 @@ footer {
 	height:50px;
 	text-align:center;
 	
-}
+} */
