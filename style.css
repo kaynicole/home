@@ -34,7 +34,7 @@ leftbar {
 	height:350px;
 	width:200px;
 	border: 3px solid;
-	word-wrap: break-word;
+	overflow:scroll;
 }
  
 #content {
