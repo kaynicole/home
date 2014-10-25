@@ -35,8 +35,11 @@ leftbar {
 	width:200px;
 	border: 3px solid;
 	word-wrap: break-word;
-	text-color:black;
+}
+
+#leftbar {
 	font-size:12px;
+	font-color:000000;
 }
  
 #content {
