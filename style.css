@@ -29,11 +29,12 @@ header {
 }
 
 leftbar {
-	position:absolute;
+	position:relative;
 	left:0px;
 	height:400px;
 	width:150px;
 	border: 3px solid;
+	word-wrap: break-word;
 }
  
 #content {
