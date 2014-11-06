@@ -9,7 +9,7 @@ ul.cssMenu, ul.cssMenu ul
 {
 	list-style:none;
 	margin:0; padding:0;
-	position: absolute;
+	position: relative center;
 }
 
 ul.cssMenu ul 						
@@ -22,6 +22,7 @@ ul.cssMenu ul
 ul.cssMenu li:hover > ul 			
 { 
 	display:block;
+	position:center;
 }
 		
 
