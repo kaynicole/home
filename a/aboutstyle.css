@@ -14,7 +14,7 @@ ul.cssMenu, ul.cssMenu ul
 
 ul.cssMenu ul 						
 { 
-        display:inline; /*initially menu item is hidden*/
+        display:none; /*initially menu item is hidden*/
         position: absolute; /*absolute positioning is important for menu to float*/
 }
 
