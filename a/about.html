@@ -16,10 +16,18 @@
 	<center>
 	<a class="nav" href="http://kaynicole.us/">Home</a></li>
 	<select id="foo">
-    <option value="http://kaynicole.us/a/about">About</option>
-    <option value="http://kaynicole.us/a/contact">Contact</option>
-    <option value="http://kaynicole.us/a/resume">Resume</option>
-</select>
+<form action="#">
+    <p>
+        <label class="label">About</label>
+        <select class="turnintodropdown">
+            <option>Please select a country:</option>
+                <option>England</option>
+                <option>Northern Ireland</option>
+                <option>Scotland</option>
+                <option>Wales</option>
+        </select>
+    </p>
+</form>
 
 <script>
     document.getElementById("foo").onchange = function() {
