@@ -21,7 +21,7 @@ ul.cssMenu ul
 /* Hover effect for menu*/
 ul.cssMenu li:hover > ul 			
 { 
-	display:block;
+	display:inline;
 	position:center;
 }
 		
