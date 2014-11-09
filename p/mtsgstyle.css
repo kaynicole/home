@@ -17,15 +17,14 @@ header {
 	background-repeat: no-repeat, repeat;
 		}
 		
- nav {
-	font-size:32px;
-	position:absolute center;
-	margin-top:140px;
-	text-decoration: none;
-	font-family: 'Droid Serif', serif;
-	font-color: #FFFFFF;
-	
-}
+nav { 
+  height: 44px;
+  width: 930px;
+  float: right;
+  margin: 0 auto 0 auto;
+  color: #222;
+  background: #404040;
+} 
 
 		
 /*#sidebar {
