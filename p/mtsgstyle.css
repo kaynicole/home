@@ -9,7 +9,7 @@ body {
 leftbar {
 	border:2px solid black;
 	float:left;
-	position:fixed;
+	position:relative;
 	height:570px;
 	width:300px;
 }
