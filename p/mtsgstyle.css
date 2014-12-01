@@ -6,6 +6,13 @@ body {
   text-align:center;
 }
 
+.iframe {
+	width=600px; 
+	height=780px; 
+	style=border: 1px solid black;
+	float:right;
+}
+
 header {
   top:-150px;
   left:0;
