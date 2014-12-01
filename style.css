@@ -8,8 +8,8 @@ body {
 
 header {
   top:0;
-  position:fixed;
-  left:0px;
+  left:0;
+  position:absolute;
   width:100%;
   height:200px;
   background-image:url("https://38.media.tumblr.com/cab3dcbff62992e924f57eefea57f662/tumblr_nfwxsqFQtB1u3usoto1_1280.jpg"), url("https://38.media.tumblr.com/e9d8990f523aa710c7846514efc43493/tumblr_nfwtpmpGIF1u3usoto1_100.png");
