@@ -7,8 +7,8 @@ body {
 }
 
 leftbar {
-	float:left;
 	position:fixed;
+	left:0px;
 	height:560px;
 	width:300px;
 	border:2px solid black;
