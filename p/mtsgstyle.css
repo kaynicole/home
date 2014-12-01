@@ -6,6 +6,14 @@ body {
   text-align:center;
 }
 
+leftbar {
+	border:2px solid black;
+	float:left;
+	position:fixed;
+	height:570px;
+	width:300px;
+}
+
 .iframe {
 	width:800px; 
 	height:570px; 
