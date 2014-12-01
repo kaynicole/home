@@ -7,6 +7,7 @@ body {
 }
 
 leftbar {
+	float:left;
 	position:relative;
 	height:560px;
 	width:300px;
@@ -213,7 +214,7 @@ ul#nav ul li a:hover {
 
 footer {
 	position:absolute;
-	width:900px;
+	width:500px;
 	text-align:center;
 	bottom:-10px;
 	background:white;
