@@ -1,14 +1,13 @@
 body {
   margin-top:60px;
   font-family: tahoma, Arial, sans-serif;
-  background-color:white;
+  background-color:black;
   color:#FFFFFF;
   text-align:center;
 }
 
 .iframe {
 	position:relative;
-	float:left;
 	margin-top:100px;
 	width:800px; 
 	height:565px; 
