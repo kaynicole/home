@@ -1,70 +1,45 @@
-/* tell the browser to render HTML 5 elements as block */
-nav{ 
-  display:block;
-}
-
 body {
-	margin-top:205px;
-	font-family: tahoma, Arial, sans-serif;
-	background-color:#E3D4F1;
-	color:#FFFFFF;
-	text-align:center;
-		} 
-		
+  margin-top:205px;
+  font-family: tahoma, Arial, sans-serif;
+  background-color:#E3D4F1;
+  color:#FFFFFF;
+  text-align:center;
+}
 
 header {
-	top:0;
-	position:absolute;
-	width:100%;
-	height:200px;
-	background-image:url("/module9/header.png"), url("/img/square.png");
-	background-color:#000000;
-	background-position: top center;
-	background-repeat: no-repeat, repeat;
-		}
-		
- nav {
-	font-size:32px;
-	position:relative;
-	margin-top:140px;
-	text-decoration: none;
-	font-family: 'Droid Serif', serif;
-	font-color: #FFFFFF;
-	
+  top:0;
+  left:0;
+  position:absolute;
+  width:100%;
+  height:200px;
+  background-image:url("https://38.media.tumblr.com/cab3dcbff62992e924f57eefea57f662/tumblr_nfwxsqFQtB1u3usoto1_1280.jpg"), url("https://38.media.tumblr.com/e9d8990f523aa710c7846514efc43493/tumblr_nfwtpmpGIF1u3usoto1_100.png");
+  background-color:#000000;
+  background-position:top center;
+  background-repeat:no-repeat, repeat;
 }
 
-leftbar {
-	position:relative;
-	float:left;
-	top:0px;
-	width:200px;
-	height:500px;
-	border:3px solid black;
-	overflow:none;
+nav {
+  display:inline-block;
+  float:center;
+  font-size:32px;
+  position:relative;
+  margin-top:140px;
+  text-decoration:none;
+  font-family:'Verdana', Geneva, sans-serif;
+  font-color:#FFFFFF;
 }
 
-rightbar {
-	position:relative;
-	float:right;
-	top:0px;
-	width:200px;
-	height:500px;
-	border:3px solid black;
-	overflow:none;
-}
- 
 #content {
-	 margin: 0 40px 40px 280px;
+  margin:0 40px 40px 280px
 }
 
-#content ul { 
-  margin: 2px 0 22px 0px;
+#content ul {
+  margin: 2px 0 22px 0px
 }
-	
+
 h2 {
-	font-size:28px;
-	color:#336699;
-	background-color:#222222;
+	font-size:32px;
+	color:white;
 	}
 h3 {
 	font-size:24px;
@@ -76,11 +51,11 @@ h4, h5, h6 {
 	color:#ff88ff;
 	background-color:#222222;
 	}
-	
+
 /* Navigation */
 	
 a.nav:link {
-    color:#FFFFFF;
+    color:#899bc7;
     text-decoration:none; 
 }
 
@@ -89,12 +64,12 @@ a.nav:visited {
 }
 
 a.nav:hover {
-	color:#7DD9E7;
+	color:#899bc7;
 	text-decoration:none; 
 }
 
 a.nav:active {
-    color: #FFFFFF; 
+    color: #899bc7; 
 }
 
 a.nav:clicked {
@@ -112,23 +87,8 @@ a {
 a:hover {
 	color:#00ff00;
 	}
-	
 
-/* footer {
-	font-size:12px;
-        bottom:0px;
-	background-color: white;
-	position:inherit;
-	width:100%;
-	height:50px;
-	text-align:center;
-	
-} */
-
-/**
-Stylesheet for SooperFish by www.SooperThemes.com
-Author: Jurriaan Roelofs
-**/
+<!-- SOOPERFISH STYLESHEET -->
 
 /* Configuration of menu width */
 html body ul.sf-menu ul,html body ul.sf-menu ul li { 
@@ -179,7 +139,7 @@ ul.sf-menu ul a {
 }
 
 ul.sf-menu ul li { 
-  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  float: center; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
   width: 150px;
 }
   
@@ -202,46 +162,28 @@ ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu
   left: -999999px;
 }
 
-/* autoArrows CSS */
-span.sf-arrow { 
-  width: 7px;
-  height: 7px;
-  position: absolute;
-  top: 20px;
-  right: 5px;
-  display: block;
-  background: url(../images/arrows-white.png) no-repeat 0 0;
-  overflow: hidden; /* making sure IE6 doesn't overflow and expand the box */
-  font-size: 1px;
-}
-
-ul ul span.sf-arrow { 
-  right: 5px;
-  top: 20px;
-  background-position: 0 100%;
-}
-
 /* Theming the menu */
 ul#nav { 
-  float: right;
+  float: center;
 }
 
 ul#nav ul { 
-  background: #222;
+  background: none;
   margin-top: 0px;
   padding-bottom: 15px;
+  font-size:25px;
 }
 
 ul#nav li a { 
   padding: 12px 17px 6px 17px;
   font: 109% 'Droid Sans', arial, sans-serif;
-  text-decoration: none;
+  text-decoration: none ;
   color: #FFF;
   margin-right: 2px;
 }
 
 ul#nav li a:hover, ul#nav li a:focus { 
-  color: #C3E600;
+  color: #899bc7;
   text-shadow: none;
 }
 
