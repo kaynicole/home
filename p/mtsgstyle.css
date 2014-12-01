@@ -205,6 +205,8 @@ ul#nav ul li a:hover {
 
 footer {
 	position:absolute;
-	bottom:0px;
-	color:black;
+	text-align:center;
+	bottom:3px;
+	background:black;
+	color:white;
 }
