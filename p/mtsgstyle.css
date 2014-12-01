@@ -16,7 +16,7 @@ leftbar {
 }
 
 .iframe {
-	position:absolute;
+	position:relative;
 	width:800px; 
 	height:570px; 
 	border: none;
