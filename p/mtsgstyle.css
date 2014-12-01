@@ -9,7 +9,6 @@ body {
 leftbar {
 	position:relative;
 	float:left;
-	margin-left:4px;
 	height:560px;
 	width:300px;
 	border:2px solid black;
