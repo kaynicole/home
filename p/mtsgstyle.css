@@ -8,10 +8,11 @@ body {
 
 leftbar {
 	position:fixed;
-	left:0px;
+	left:5px;
 	height:560px;
 	width:300px;
 	border:2px solid black;
+	text-align:center;
 }
 
 .iframe {
