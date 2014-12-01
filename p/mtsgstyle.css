@@ -13,6 +13,12 @@ body {
 	float:right;
 }
 
+#footer {
+	position:absolute;
+	bottom:0px;
+	color:black;
+}
+
 header {
   top:-150px;
   left:0;
@@ -201,10 +207,4 @@ ul#nav ul li a {
 ul#nav ul li a:hover { 
   color: #C3E600;
   margin-right: 2px;
-}
-
-#footer {
-	position:absolute;
-	bottom:0px;
-	color:black;
 }
