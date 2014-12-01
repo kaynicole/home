@@ -9,12 +9,13 @@ body {
 leftbar {
 	border:2px solid black;
 	float:left;
-	position:absolute;
+	position:relative;
 	height:570px;
 	width:300px;
 }
 
 .iframe {
+	position:relative;
 	width:800px; 
 	height:570px; 
 	border: none;
@@ -215,7 +216,7 @@ footer {
 	position:absolute;
 	width:100%;
 	text-align:center;
-	bottom:0px;
+	bottom:-10px;
 	background:white;
 	color:black;
 	opacity:0.5;
