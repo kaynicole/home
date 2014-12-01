@@ -6,21 +6,11 @@ body {
   text-align:center;
 }
 
-leftbar {
-	position:fixed;
-	left:5px;
-	height:560px;
-	width:300px;
-	border:2px solid black;
-	text-align:center;
-}
-
 .iframe {
 	position:relative;
 	width:800px; 
 	height:565px; 
 	border: none;
-	float:right;
 }
 
 header {
