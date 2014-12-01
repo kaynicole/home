@@ -206,6 +206,7 @@ ul#nav ul li a:hover {
 footer {
 	position:absolute;
 	text-align:center;
+	left:200px;
 	bottom:0px;
 	color:white;
 	opacity:0.5;
