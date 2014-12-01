@@ -207,7 +207,6 @@ footer {
 	position:absolute;
 	text-align:center;
 	bottom:0px;
-	background:white;
-	color:black;
+	color:white;
 	opacity:0.5;
 }
