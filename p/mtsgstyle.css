@@ -6,6 +6,13 @@ body {
   text-align:center;
 }
 
+leftbar {
+	float:left;
+	color:white;
+	font-family:tahoma, Arial, sans-serif;
+	text-align:center;
+}
+
 .iframe {
 	position:relative;
 	width:800px; 
