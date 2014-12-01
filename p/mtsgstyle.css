@@ -7,8 +7,8 @@ body {
 }
 
 .iframe {
-	width=600px; 
-	height=1000; 
+	width:600px; 
+	height:780; 
 	border: none;
 	float:right;
 }
