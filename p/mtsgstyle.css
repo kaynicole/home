@@ -10,7 +10,7 @@ body {
 
 
 .iframe {
-	position:relative;
+	position:absolute;
 	width:800px; 
 	height:600px; 
 	border: none;
