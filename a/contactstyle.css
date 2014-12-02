@@ -1,62 +1,105 @@
+/* THE BODY */
+
 body {
-	margin-top:205px;
-	font-family: tahoma, Arial, sans-serif;
-	background-color:#E3D4F1;
-	color:#FFFFFF;
-		}
-		
+  margin-top:205px;
+  font-family: tahoma, Arial, sans-serif;
+  background-color:#E3D4F1;
+  color:#FFFFFF;
+  text-align:center;
+}
+
+leftbar {
+  position:relative;
+  float:left;
+  background-color:#8d799d;
+  height:500px;
+  left:-10px;
+  top:-10px;
+  bottom:0px;
+  width:250px;
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size:20px;
+  color:black;
+}
+
+rightbar {
+  position:relative;
+  float:right;
+  background-color:#8d799d;
+  height:500px;
+  right:-10px;
+  top:-10px;
+  bottom:0px;
+  width:250px;
+  font-family:Tahoma, Geneva, sans-serif;
+  font-size:20px;
+  color:black;
+}
+
+
+
 
 header {
-	top:0;
-	position:absolute;
-	width:100%;
-	height:200px;
-	background-image:url("/module9/header.png"), url("/img/square.png");
-	background-color:#000000;
-	background-position: top center;
-	background-repeat: no-repeat, repeat;
-		}
-
- nav {
-	font-size:32px;
-	position:absolute center;
-	margin-top:140px;
-	text-decoration: none;
-	font-family: 'Droid Serif', serif;
-	font-color: #FFFFFF;
-	
+  top:0;
+  position:absolute;
+  width:100%;
+  left:0px;
+  right:0px;
+  height:200px;
+  background-image:url("https://38.media.tumblr.com/67656ff99efaa69676f436d695002682/tumblr_nfwtpmpGIF1u3usoto2_1280.png"), url("https://38.media.tumblr.com/e9d8990f523aa710c7846514efc43493/tumblr_nfwtpmpGIF1u3usoto1_100.png");
+  background-color:#000000;
+  background-position:top center;
+  background-repeat:no-repeat, repeat;
 }
 
-		
-/*#sidebar {
-  	top: 500px;
-  	margin-top:400px;
-	background-color:#d7a6de;
-  	left: 0px;
-  	width: 200px;
-  	height: 300px;
-  	padding: 4px 4px 4px 4px;
-  	border:1px solid white;
-}*/
- 
+nav {
+  font-family:"Courier New", Courier, monospace;
+  display:inline-block;
+  float:center;
+  font-size:20px;
+  position:relative;
+  margin-top:140px;
+  text-decoration:none;
+  font-family:'Verdana', Geneva, sans-serif;
+  color:black;
+  padding: 5px 5px 5px 5px;
+}
+
+#box {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  width:120px;
+  height:30px;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin: 3px 60px 70px 70px;
+  border-radius:5px;
+}
+
+#box2 {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin:5px 5px 5px 5px;
+  border-radius:5px;
+}
+
 #content {
-	 margin: 0 40px 40px 280px;
+  margin:0 40px 40px 280px
 }
-	
-	
-/* h1 {
-	font-size:32px;
-	color:#D61128;
-	background-color:#BDF2EB;
-	width: 100%;
-	height: 100px;
-	}
-*/
-	
+
+#content ul {
+  margin: 2px 0 22px 0px
+}
+
 h2 {
-	font-size:28px;
-	color:#336699;
-	background-color:#222222;
+	font-size:32px;
+	color:white;
 	}
 h3 {
 	font-size:24px;
@@ -68,30 +111,30 @@ h4, h5, h6 {
 	color:#ff88ff;
 	background-color:#222222;
 	}
-	
+
 /* Navigation */
 	
 a.nav:link {
-    color:#FFFFFF;
-    text-decoration:none;
+    color:#899bc7;
+    text-decoration:none; 
 }
 
 a.nav:visited {
-	color:#FFFFFF;
+	color:#FFFFFF; 
 }
 
 a.nav:hover {
-	color:#7DD9E7;
-	text-decoration:none;
+	color:#899bc7;
+	text-decoration:none; 
 }
 
 a.nav:active {
-    color: #FFFFFF;
+    color: #899bc7; 
 }
 
 a.nav:clicked {
 	color:#FFFFFF;
-	text-decoration:none;
+	text-decoration:none; 
 }
 
 /* End Navigation */
@@ -104,16 +147,124 @@ a {
 a:hover {
 	color:#00ff00;
 	}
-	
+
+<!-- SOOPERFISH STYLESHEET -->
+
+/* Configuration of menu width */
+html body ul.sf-menu ul,html body ul.sf-menu ul li { 
+  width: 220px;
+}
+
+html body ul.sf-menu ul ul { 
+  margin: 0 0 0 220px;
+}
+
+/* Framework for proper showing/hiding/positioning */
+ul.sf-menu,ul.sf-menu * { 
+  margin: 0;
+  padding: 0;
+}
+
+ul.sf-menu { 
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+  
+ul.sf-menu li:hover { 
+  visibility: inherit; /* fixes IE7 'sticky bug' */ 
+}
+
+ul.sf-menu a { 
+  display: block;
+  position: relative;
+}
+  
+ul.sf-menu ul { 
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  top: auto;
+  left: -999999px;
+}
+  
+ul.sf-menu ul a { 
+  zoom: 1; /* IE6/7 fix */ 
+}
+
+ul.sf-menu ul li { 
+  float: center; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;
+}
+  
+ul.sf-menu ul ul { 
+  top: 0;
+  margin: 0 0 0 150px;
+}
+
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
+ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+  left: auto;
+}
+  
+ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
+ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
+ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+  left: -999999px;
+}
+
+/* Theming the menu */
+ul#nav { 
+  float: center;
+}
+
+ul#nav ul { 
+  width:150px;
+  text-align:center;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  font-size:16px;
+}
+
+ul#nav li a { 
+  padding: 5px 5px 5px 5px;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none ;
+  color: black;
+  margin: 2px 2px 2px 2px;
+}
+
+ul#nav li a:hover, ul#nav li a:focus { 
+  color: #899bc7;
+  text-shadow: none;
+}
+
+ul#nav ul li a { 
+  color: black;
+}
+
+ul#nav ul li a:hover { 
+  color: #C3E600;
+  margin-right: 2px;
+}
 
 footer {
-	margin-top: 500px;
-	font-size:12px;
-        bottom:0;
-	background-color: white;
-	position:static;
+	position:absolute;
+	text-align:center;
 	width:100%;
-	height:50px;
-	clear:both;
-	
+	left:0px;
+	right:0px;
+	bottom:-100px;
+	color:white;
+  background-color:black;
+	opacity:0.5;
 }
