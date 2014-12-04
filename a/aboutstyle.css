@@ -2,63 +2,44 @@
 
 body {
   margin-top:205px;
+  background-image:url("https://38.media.tumblr.com/db81ce5fc31ceba7064a0b4d481ccfb6/tumblr_ng15awZGGA1u3usoto4_r1_1280.jpg");
+  background-color:#99284d;
+  background-repeat:repeat-x;
   font-family: tahoma, Arial, sans-serif;
-  background-color:#E3D4F1;
   color:#FFFFFF;
   text-align:center;
 }
 
-leftbar {
+p.blankspace {
   position:relative;
-  float:left;
-  background-color:#8d799d;
-  height:500px;
-  left:-10px;
-  top:-10px;
-  bottom:0px;
-  width:250px;
-  font-family:Tahoma, Geneva, sans-serif;
-  font-size:20px;
-  color:black;
+  margin:0px;
+  padding:0px;
+  height:1000px;
+  width:960px;
+  top:247px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: white;
+  
 }
 
-rightbar {
-  position:relative;
-  float:right;
-  background-color:#8d799d;
-  height:500px;
-  right:-10px;
-  top:-10px;
-  bottom:0px;
-  width:250px;
-  font-family:Tahoma, Geneva, sans-serif;
-  font-size:20px;
-  color:black;
-}
-
-
-
-
-header {
-  top:0;
-  position:absolute;
+#header {
+  position:fixed;
+  top:0px;
+  left:auto;
+  right:auto;
   width:100%;
-  left:0px;
-  right:0px;
-  height:200px;
-  background-image:url("/img/header2.png"), url("/img/square.png");
-  background-color:#000000;
   background-position:top center;
-  background-repeat:no-repeat, repeat;
+  background-image:url("https://38.media.tumblr.com/67656ff99efaa69676f436d695002682/tumblr_nfwtpmpGIF1u3usoto2_1280.png");
+  background-repeat:no-repeat;
 }
 
-nav {
-  font-family:"Courier New", Courier, monospace;
-  display:inline-block;
-  float:center;
-  font-size:20px;
+#nav {
   position:relative;
-  margin-top:140px;
+  margin-top:165px;
+  display:inline-block;
+  font-family:"Courier New", Courier, monospace;
+  font-size:20px;
   text-decoration:none;
   font-family:'Verdana', Geneva, sans-serif;
   color:black;
@@ -257,13 +238,13 @@ ul#nav ul li a:hover {
   margin-right: 2px;
 }
 
-footer {
+#footer {
 	position:absolute;
 	text-align:center;
 	width:100%;
 	left:0px;
 	right:0px;
-	bottom:-100px;
+	bottom:0px;
 	color:white;
   background-color:black;
 	opacity:0.5;
