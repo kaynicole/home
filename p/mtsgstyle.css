@@ -13,9 +13,9 @@ body {
 iframe.blankspace {
   position:relative;
   margin:0px;
-  padding-left:20px;
-  padding-right:20px;
-  height:780px;
+  padding-left:200px;
+  padding-right:200px;
+  height:720px;
   width:600px;
   top:250px;
   margin-left:auto;
