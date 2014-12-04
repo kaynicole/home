@@ -175,7 +175,7 @@ p.lsq3 {
 
 
 
-#box {
+#box > ul {
   font-family:"Courier New", Courier, monospace;
   background:#afbcd5;
   color:black;
@@ -188,7 +188,7 @@ p.lsq3 {
   border-radius:5px;
 }
 
-ul#box2 {
+ul#box2 > li {
   font-family:"Courier New", Courier, monospace;
   background:#afbcd5;
   color:black;
