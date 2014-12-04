@@ -1,32 +1,73 @@
+/* THE BODY */
+
 body {
   margin-top:205px;
+  background-image:url("https://38.media.tumblr.com/db81ce5fc31ceba7064a0b4d481ccfb6/tumblr_ng15awZGGA1u3usoto4_r1_1280.jpg");
+  background-color:#99284d;
+  background-repeat:repeat-x;
   font-family: tahoma, Arial, sans-serif;
-  background-color:#E3D4F1;
   color:#FFFFFF;
   text-align:center;
 }
 
-header {
-  top:0;
-  left:0;
-  position:absolute;
-  width:100%;
-  height:200px;
-  background-image:url("/img/header.png"), url("/img/square.png");
-  background-color:#000000;
-  background-position:top center;
-  background-repeat:no-repeat, repeat;
+p.blankspace {
+  position:relative;
+  margin:0px;
+  padding:0px;
+  height:1000px;
+  width:960px;
+  top:247px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: white;
+  
 }
 
-nav {
-  display:inline-block;
-  float:center;
-  font-size:32px;
+#header {
+  position:fixed;
+  top:0px;
+  left:auto;
+  right:auto;
+  width:100%;
+  background-position:top center;
+  background-image:url("/module9/header.png");
+  background-repeat:no-repeat;
+}
+
+#nav {
   position:relative;
-  margin-top:140px;
+  margin-top:165px;
+  display:inline-block;
+  font-family:"Courier New", Courier, monospace;
+  font-size:20px;
   text-decoration:none;
   font-family:'Verdana', Geneva, sans-serif;
-  font-color:#FFFFFF;
+  color:black;
+  padding: 5px 5px 5px 5px;
+}
+
+#box {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  width:120px;
+  height:30px;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin: 3px 60px 70px 70px;
+  border-radius:5px;
+}
+
+#box2 {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin:5px 5px 5px 5px;
+  border-radius:5px;
 }
 
 #content {
@@ -168,18 +209,19 @@ ul#nav {
 }
 
 ul#nav ul { 
-  background: none;
+  width:150px;
+  text-align:center;
   margin-top: 0px;
-  padding-bottom: 15px;
-  font-size:25px;
+  padding-bottom: 0px;
+  font-size:16px;
 }
 
 ul#nav li a { 
-  padding: 12px 17px 6px 17px;
-  font: 109% 'Droid Sans', arial, sans-serif;
+  padding: 5px 5px 5px 5px;
+  font-family: "Courier New", Courier, monospace;
   text-decoration: none ;
-  color: #FFF;
-  margin-right: 2px;
+  color: black;
+  margin: 2px 2px 2px 2px;
 }
 
 ul#nav li a:hover, ul#nav li a:focus { 
@@ -188,10 +230,22 @@ ul#nav li a:hover, ul#nav li a:focus {
 }
 
 ul#nav ul li a { 
-  color: #FFF;
+  color: black;
 }
 
 ul#nav ul li a:hover { 
   color: #C3E600;
   margin-right: 2px;
+}
+
+#footer {
+	position:absolute;
+	text-align:center;
+	width:100%;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	color:white;
+  background-color:black;
+	opacity:0.5;
 }
