@@ -19,7 +19,7 @@ div.blankspace {
   top:247px;
   margin-left:auto;
   margin-right:auto;
-  background-color: white;
+  background-color: black;
   overflow:scroll;
 }
 
@@ -33,6 +33,7 @@ div.blankspace {
   border:5px solid black;
   padding: 5px 5px 5px 5px;
   color:black;
+  background-color:grey;
   text-align:left;
 }
 
