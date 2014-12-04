@@ -14,14 +14,13 @@ div.blankspace {
   position:relative;
   margin:0px;
   padding:0px;
-  height:1500px;
+  height:768px;
   width:960px;
   top:247px;
   margin-left:auto;
   margin-right:auto;
   background-color: white;
-  overflow:auto;
-  
+  overflow:scroll;
 }
 
 #oldplan {
@@ -43,6 +42,8 @@ div.blankspace {
   left:auto;
   right:auto;
   width:100%;
+  left:0px;
+  right:0px;
   background-position:top center;
   background-image:url("https://38.media.tumblr.com/67656ff99efaa69676f436d695002682/tumblr_nfwtpmpGIF1u3usoto2_1280.png");
   background-repeat:no-repeat;
