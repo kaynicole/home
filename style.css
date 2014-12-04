@@ -16,7 +16,7 @@ div.blankspace {
   padding:0px;
   height:768px;
   width:1700px;
-  top:230px;
+  top:394px;
   margin-left:auto;
   margin-right:auto;
   background-color: black;
@@ -46,13 +46,13 @@ div.blankspace {
   left:0px;
   right:0px;
   background-position:top center;
-  background-image:url("https://31.media.tumblr.com/b1d26e6114f35a6866d09c7aa3d03db7/tumblr_ng2z5s2UPg1u3usoto1_1280.jpg");
+  background-image:url("/img/header.jpg");
   background-repeat:no-repeat;
 }
 
 #nav {
   position:relative;
-  margin-top:145px;
+  margin-top:350px;
   display:inline-block;
   font-family:"Courier New", Courier, monospace;
   font-size:20px;
