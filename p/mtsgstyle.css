@@ -239,7 +239,7 @@ ul#nav ul li a:hover {
 }
 
 #footer {
-	position:absolute;
+	position:fixed;
 	text-align:center;
 	width:100%;
 	left:0px;
