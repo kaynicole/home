@@ -15,7 +15,7 @@ div.blankspace {
   margin:0px;
   padding:0px;
   height:768px;
-  width:2000px;
+  width:1740px;
   top:247px;
   margin-left:auto;
   margin-right:auto;
@@ -52,7 +52,7 @@ div.blankspace {
 
 #nav {
   position:relative;
-  margin-top:165px;
+  margin-top:150px;
   display:inline-block;
   font-family:"Courier New", Courier, monospace;
   font-size:20px;
