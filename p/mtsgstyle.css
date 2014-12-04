@@ -10,6 +10,13 @@ body {
   text-align:center;
 }
 
+iframe {
+	position:absolute;
+	width:600px;
+	height:780px;
+	border:none;
+}
+
 p.blankspace {
   position:relative;
   margin:0px;
