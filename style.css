@@ -5,7 +5,6 @@ body {
   right:0px;
   bottom:0px;
   background-image:url("http://kaynicole.us/img/background2.jpg");
-  padding-bottom:400px black;
   background-color:#99284d;
   background-repeat:repeat-x;
   font-family: tahoma, Arial, sans-serif;
@@ -172,7 +171,7 @@ ul.sf-menu ul a {
 }
 
 ul.sf-menu ul li { 
-  float: center; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
   width: 150px;
 }
   
@@ -197,7 +196,7 @@ ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu
 
 /* Theming the menu */
 ul#nav { 
-  float: center;
+  float: left;
 }
 
 ul#nav ul { 
