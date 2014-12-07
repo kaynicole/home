@@ -117,12 +117,7 @@ a:hover {
 
 <!-- SOOPERFISH STYLESHEET -->
 
-/* Configuration of menu width */
 
-
-html body ul.sf-menu ul ul { 
-  margin: 0 0 0 220px;
-}
 
 /* Framework for proper showing/hiding/positioning */
 ul.sf-menu,ul.sf-menu * { 
