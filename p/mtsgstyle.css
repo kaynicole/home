@@ -1,4 +1,4 @@
-iframe.blankspace {
+iframe.space {
   position:relative;
   margin:0px;
   padding-left:180px;
@@ -50,7 +50,7 @@ body {
   
 } -->
 
-div.space {
+.space {
   position:relative;
   width:1200px;
   top:-3px;
