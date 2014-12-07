@@ -1,8 +1,10 @@
-/* THE BODY */
-
 body {
-  margin-top:205px;
-  background-image:url("https://38.media.tumblr.com/db81ce5fc31ceba7064a0b4d481ccfb6/tumblr_ng15awZGGA1u3usoto4_r1_1280.jpg");
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  background-image:url("http://kaynicole.us/img/background2.jpg");
   background-color:#99284d;
   background-repeat:repeat-x;
   font-family: tahoma, Arial, sans-serif;
@@ -10,64 +12,53 @@ body {
   text-align:center;
 }
 
-p.blankspace {
-  position:relative;
-  margin:0px;
-  padding:0px;
-  height:1000px;
-  width:960px;
-  top:247px;
-  margin-left:auto;
-  margin-right:auto;
-  background-color: white;
-  
-}
-
 #header {
-  position:fixed;
-  top:0px;
-  left:auto;
-  right:auto;
+  position:absolute;
   width:100%;
-  background-position:top center;
-  background-image:url("/module9/header.png");
-  background-repeat:no-repeat;
+  left:0px;
+  right:0px;
+  top:-8px;
 }
 
 #nav {
-  position:relative;
-  margin-top:165px;
+  position:absolute;
   display:inline-block;
   font-family:"Courier New", Courier, monospace;
   font-size:20px;
   text-decoration:none;
-  font-family:'Verdana', Geneva, sans-serif;
   color:black;
   padding: 5px 5px 5px 5px;
+  margin-top:-1070px;
+  margin-left:-530px;
+  width:100%;
+  left:auto;
+  right:auto;
+  
+} -->
+
+div.space {
+  position:relative;
+  width:1200px;
+  top:-3px;
+  height:1000px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:black;
+  overflow-y:scroll;
 }
 
-#box {
-  font-family:"Courier New", Courier, monospace;
-  background:#afbcd5;
-  color:black;
-  width:120px;
-  height:30px;
-  border:1px solid black;
-  box-shadow: 5px 5px 2px black;
+#inspace {
+  position:relative;
+  margin-top:20px;
+  width:900px;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  border:5px solid black;
   padding: 5px 5px 5px 5px;
-  margin: 3px 60px 70px 70px;
-  border-radius:5px;
-}
-
-#box2 {
-  font-family:"Courier New", Courier, monospace;
-  background:#afbcd5;
-  color:black;
-  border:1px solid black;
-  box-shadow: 5px 5px 2px black;
-  padding: 5px 5px 5px 5px;
-  margin:5px 5px 5px 5px;
-  border-radius:5px;
+  color:white;
+  text-align:center;
+  border:1px dashed white;
 }
 
 #content {
@@ -113,11 +104,6 @@ a.nav:active {
     color: #899bc7; 
 }
 
-a.nav:clicked {
-	color:#FFFFFF;
-	text-decoration:none; 
-}
-
 /* End Navigation */
 
 a {
@@ -130,21 +116,6 @@ a:hover {
 	}
 
 <!-- SOOPERFISH STYLESHEET -->
-
-/* Configuration of menu width */
-html body ul.sf-menu ul,html body ul.sf-menu ul li { 
-  width: 220px;
-}
-
-html body ul.sf-menu ul ul { 
-  margin: 0 0 0 220px;
-}
-
-/* Framework for proper showing/hiding/positioning */
-ul.sf-menu,ul.sf-menu * { 
-  margin: 0;
-  padding: 0;
-}
 
 ul.sf-menu { 
   display: block;
@@ -174,13 +145,9 @@ ul.sf-menu ul {
   top: auto;
   left: -999999px;
 }
-  
-ul.sf-menu ul a { 
-  zoom: 1; /* IE6/7 fix */ 
-}
 
 ul.sf-menu ul li { 
-  float: center; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
   width: 150px;
 }
   
@@ -205,7 +172,7 @@ ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu
 
 /* Theming the menu */
 ul#nav { 
-  float: center;
+  float: left;
 }
 
 ul#nav ul { 
@@ -238,8 +205,71 @@ ul#nav ul li a:hover {
   margin-right: 2px;
 }
 
-#footer {
-	position:absolute;
+#home {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  width:120px;
+  height:30px;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin: 3px 60px 70px 70px;
+  border-radius:5px;
+}
+
+#about {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  width:120px;
+  height:30px;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin: 3px 60px 70px 70px;
+  border-radius:5px;
+}
+
+#blog {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  width:120px;
+  height:30px;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin: 3px 60px 70px 70px;
+  border-radius:5px;
+}
+
+#port {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  width:120px;
+  height:30px;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin: 3px 60px 70px 70px;
+  border-radius:5px;
+}
+
+#mtsg {
+  font-family:"Courier New", Courier, monospace;
+  background:#afbcd5;
+  color:black;
+  border:1px solid black;
+  box-shadow: 5px 5px 2px black;
+  padding: 5px 5px 5px 5px;
+  margin:5px 5px 5px 5px;
+  border-radius:5px;
+}
+
+footer {
+	position:fixed;
 	text-align:center;
 	width:100%;
 	left:0px;
@@ -248,4 +278,19 @@ ul#nav ul li a:hover {
 	color:white;
   background-color:black;
 	opacity:0.5;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px white; 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px red; 
+    background: #99284d;
 }
