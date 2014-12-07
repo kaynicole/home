@@ -117,13 +117,7 @@ a:hover {
 
 <!-- SOOPERFISH STYLESHEET -->
 
-
-
 /* Framework for proper showing/hiding/positioning */
-ul.sf-menu,ul.sf-menu * { 
-  margin: 0;
-  padding: 0;
-}
 
 ul.sf-menu { 
   display: block;
