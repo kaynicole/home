@@ -1,5 +1,17 @@
+iframe {
+  position:relative;
+  margin:0px;
+  padding-left:180px;
+  padding-right:181px;
+  height:720px;
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: black;
+}
+
 body {
-  position:fixed;
+  position:absolute;
   top:0px;
   left:0px;
   right:0px;
@@ -10,6 +22,8 @@ body {
   font-family: tahoma, Arial, sans-serif;
   color:#FFFFFF;
   text-align:center;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #header {
@@ -36,7 +50,7 @@ body {
   
 } -->
 
-div.space {
+.space {
   position:relative;
   width:1200px;
   top:-3px;
@@ -58,7 +72,6 @@ div.space {
   padding: 5px 5px 5px 5px;
   color:white;
   text-align:center;
-  border:1px dashed white;
 }
 
 #content {
