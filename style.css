@@ -104,11 +104,6 @@ a.nav:active {
     color: #899bc7; 
 }
 
-a.nav:clicked {
-	color:#FFFFFF;
-	text-decoration:none; 
-}
-
 /* End Navigation */
 
 a {
@@ -164,10 +159,6 @@ ul.sf-menu ul {
   width: 150px; 
   top: auto;
   left: -999999px;
-}
-  
-ul.sf-menu ul a { 
-  zoom: 1; /* IE6/7 fix */ 
 }
 
 ul.sf-menu ul li { 
