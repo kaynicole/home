@@ -1,0 +1,73 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="wra210style.css" />
+  <title>Kayla Clarke's WRA 210 Course Website</title>
+  <link rel="shortcut icon" href="favicon.png"
+
+</head> 
+<body>
+
+  <header>
+	  <h1><center>Kayla Clarke's WRA 210 Course Website</center></h1>
+	  <p>A repository for all of the course materials I prepare for WRA 210</p>
+  </header>
+  
+  <div role="main">
+  
+	  <ul>
+		  <li><a href="https://www.msu.edu/~clarkek8/module1.pdf">Module 1</a></li>
+		  <li><a href="/wra210f/pdf/module2.pdf">Module 2</a></li>
+		  <li><a href="/wra210f/pdf/module3.pdf">Module 3</a></li>
+		  <li>Module 4
+		   <!--- Start nested list -->
+		  <ol>
+		  <li>Sketch: <a href="/wra210f/pdf/sketchsitemap.pdf">sitemaps</a></li>
+		  <li>Sketch: <a href="/wra210f/pdf/sketchwireframe.pdf">wireframe</a></li>
+		  <li><a href="/wra210f/img/fullsitemap.png">Full sitemap</a></li>
+		  <li><a href="/wra210f/pdf/sketchsitemap.pdf">Navigation (in sitemaps sketch)</a></li>
+		  <li><a href="/wra210f/pdf/rationale.pdf">Rationale</a></li>
+		 </ol>
+		 <!--- end nested list -->
+		 </li><!--- close list item containing nested list --->
+		 <li>Module 5
+		 <ol>
+		 <li><a href="/wra210f/img/photosketches.jpg">Photo Sketches</a></li>
+		 <li>Wireframes:<a href="/wra210/img/fullwireframe.png"> One</a>,<a href="/img/fullwireframe2.png"> Two</a></li>
+		 <li><a href="/wra210f/pdf/rationale2.pdf">Rationale</a></li>
+		 </ol>
+	<!-- Module Six -->
+		 <li>Module 6
+		 <ol>
+		 <li><a href="/wra210f/psd/KNDesign.zip">Design Docs</a></li>
+		 <li><a href="/wra210f/pdf/designdecisions.pdf">Design Decisions</a>
+		 </ol></li></li>
+		<!-- Module Seven -->
+		<li><a href="/wra210f/pdf/module7.pdf">Module 7</a>
+		<ul>
+		 <li><a href="/wra210f/pdf/module7update.pdf">Update</a></li></li></ul>
+		<li><a href="/wra210f/pdf/module8.pdf">Module 8</a></li>
+		<!-- Module Nine -->
+		<li>Module 9</a>
+		<ol>
+		  <li><a href="/wra210f/img/originalme.JPG">Myself (Original)</a></li>
+		  <li><a href="/wra210f/img/editme.jpg">Myself (Edit)</a></li>
+		  <li><a href="/wra210f/img/nycity.jpg">Header (original)</a></li>
+		  <li><a href="/wra210f/psd/header.psd">Header Edit (PSD)</a></li>
+		  <li><a href="/wra210f/img/header.png">Header Edit (PNG)</a></li>
+		 </ol></li>
+		
+		
+		<li><a href="/wra210f/module10.html">Module 10</a></li>
+		<li><a href="/wra210f/module11.html">Module 11</a></li>
+		<li><a href="http://wra210msu.wordpress.com/2014/12/04/module-12-kayla-clarke/">Module 12</a></li>
+		<li><a href="http://www.codecademy.com/clarkek8msu.edu">Module 13</a></li>
+	  </ul>
+
+  </div>
+  <footer>
+	  <p>Copyright &copy; <a href="http://kaynicole.us/">kaynicole.us</a></p>
+  </footer>
+
+</body>
+</html>
