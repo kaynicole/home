@@ -61,24 +61,6 @@ div.space {
   font-family:"Courier New", Courier, monospace;
 }
 
-a.space:link {
-    color:white;
-    text-decoration:none; 
-}
-
-a.space:visited {
-	color:white; 
-}
-
-a.space:hover {
-	color:white;
-	text-decoration:none; 
-}
-
-a.space:active {
-    color: white; 
-}
-
 #content {
   margin:0 40px 40px 280px
 }
