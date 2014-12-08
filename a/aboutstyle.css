@@ -59,6 +59,7 @@ div.space {
   color:white;
   text-align:center;
   border:1px dashed white;
+  font-family:"Courier New", Courier, monospace;
 }
 
 #content {
