@@ -87,27 +87,27 @@ h4, h5, h6 {
 /* Navigation */
 	
 a.nav:link {
-    color:#899bc7;
+    color:white;
     text-decoration:none; 
 }
 
 a.nav:visited {
-	color:#FFFFFF; 
+	color:white; 
 }
 
 a.nav:hover {
-	color:#899bc7;
+	color:white;
 	text-decoration:none; 
 }
 
 a.nav:active {
-    color: #899bc7; 
+    color: white; 
 }
 
 /* End Navigation */
 
 a {
-	text-decoration:underline;
+	text-decoration:none;
 	color:#000000;
 	}
 	
