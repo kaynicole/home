@@ -61,21 +61,21 @@ div.space {
   font-family:"Courier New", Courier, monospace;
 }
 
-a.inspace:link {
+a.space:link {
     color:white;
     text-decoration:none; 
 }
 
-a.inspace:visited {
+a.space:visited {
 	color:white; 
 }
 
-a.inspace:hover {
+a.space:hover {
 	color:white;
 	text-decoration:none; 
 }
 
-a.inspace:active {
+a.space:active {
     color: white; 
 }
 
