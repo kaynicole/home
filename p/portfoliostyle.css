@@ -70,6 +70,19 @@ img.mtsg {
 	margin-right:50px;
 }
 
+img.mtsg {
+	 float:left;
+         border-radius: 10%;
+	 -webkit-filter: grayscale(0%);
+    	-webkit-transition: all .6s ease;  /* Transition for Webkit browsers */  
+}
+
+img.mtsg:hover{ 
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    filter: none;
+}
+
 #content {
   margin:0 40px 40px 280px
 }
