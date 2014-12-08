@@ -64,6 +64,7 @@ div.space {
 
 img.mtsg {
 	float:left;
+	border:1px solid grey;
 }
 
 #content {
