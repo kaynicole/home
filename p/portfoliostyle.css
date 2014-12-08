@@ -10,6 +10,8 @@ body {
   font-family: tahoma, Arial, sans-serif;
   color:#FFFFFF;
   text-align:center;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 #header {
