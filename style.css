@@ -117,12 +117,12 @@ a:hover {
 
 <!-- SOOPERFISH STYLESHEET -->
 
-ul.sf-menu { 
+.sf-menu { 
   display: block;
   position: relative;
 }
   
-ul.sf-menu li { 
+.sf-menu li { 
   display: block;
   list-style: none;
   float: left;
