@@ -1,71 +1,25 @@
-@charset "UTF-8";
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Great+Vibes|Arizonia|Zeyada' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Kayla Clarke</title>
+</head>
 
-/* CSS */
+<body>
+<div id="header">
+<p>Kayla Clarke</p>
+  <div id="topbar"></div>
+  <ul>
+    <li><a href="/home">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/home">Resume</a></li>
+    <li><a href="/about">Portfolio</a></li>
+  </ul>
+  <div id="bottombar"></div>
+</div>
 
-@media screen and (min-width:481px) {
-body {
-  background-color:#b0c4de
-}
+</body>
 
-#header {
-  position:fixed;
-  text-align:center;
-  font-family: 'Zeyada', cursive;
-  font-size:50px;
-  width:100%;
-  font-style:italic;
-  margin-top:-50px;
-}
-
-#header::first-letter { 
-  position:fixed;
-  font-size: 200%;
-  font-family: 'Arizonia', cursive;
-  background-color:white;
-  color:black;
-  border-radius:50%;
-}
-
-#topbar {
-  position:fixed;
-  width:100%;
-  height:3px;
-  border-top:2px solid black;
-  margin-top:-85px;
-}
-
-#bottombar {
-  position:fixed;
-  width:100%;
-  height:3px;
-  border-top:2px solid black;
-  margin-top:-60px;
-}
-
-ul {
-    position:fixed;
-    font-family: 'Architects Daughter', cursive;
-    font-size:20px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    margin-top:-82px;
-    text-align:center;
-    width:100%;
-    margin-left:47%;
-}
-
-li {
-    float: left;
-    font-family: 'Architects Daughter', cursive;
-}
-
-a {
-   display: block;
-   width: 90px;
-   color:black;
-  text-decoration:none;
-}
-
-}
+</html>
