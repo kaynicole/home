@@ -71,24 +71,12 @@
 		margin-left:-20px;
 	}
 	
-	#info {
-		position:fixed;
-		background-color:white;
-		float:left;
-		height:400px;
-		width:300px;
-		border: 1px solid black;
-    		margin-top:130px;
-    		margin-left:40px;
-	}
-	
 	article {
 		position:fixed;
 		background-color:white;
-		margin-left:345px;
 		float:right;
-		height:400px;
-		width:600px;
+		height:500px;
+		width:100%;
 		border:1px solid black;
     		margin-top:130px;
     		overflow:auto;
@@ -167,16 +155,6 @@
 		border-top:2px solid black;
 		margin-top:-42px;
 		margin-left:-20px;
-	}
-	
-	#info {
-		position:fixed;
-		background-color:white;
-		float:left;
-		height:200px;
-		width:100%;
-		border: 1px solid black;
-    		margin-top:130px;
 	}
 	
 	article {
