@@ -96,7 +96,7 @@
 }
 
 @media screen and (max-device-width: 480px) {
-
+	
 
 	body {
 		background-color:#b0c4de;
@@ -173,22 +173,19 @@
 		position:fixed;
 		background-color:white;
 		float:left;
-		height:400px;
-		width:300px;
+		height:200px;
+		width:100%;
 		border: 1px solid black;
     		margin-top:130px;
-    		margin-left:40px;
 	}
 	
 	article {
 		position:fixed;
 		background-color:white;
-		margin-left:345px;
-		float:right;
-		height:400px;
-		width:600px;
+		height:500px;
+		width:100%;
 		border:1px solid black;
-    		margin-top:130px;
-    		overflow:auto;
+    		margin-top:350px;
 	}
+
 }
