@@ -170,7 +170,6 @@
 	}
 	
 	#info {
-		position:fixed;
 		background-color:white;
 		float:left;
 		height:200px;
@@ -181,14 +180,12 @@
 	}
 	
 	article {
-		position:fixed;
 		background-color:white;
-		margin-left:345px;
 		float:right;
 		height:500px;
 		width:100%;
 		border:1px solid black;
-    		margin-top:210px;
+    		margin-top:310px;
     		overflow:auto;
 	}
 
