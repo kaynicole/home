@@ -184,6 +184,19 @@
 		width:100%;
 		border:1px solid black;
     		margin-top:350px;
+    		text-align:center;
+	}
+	
+	footer {
+		position:absolute bottom;
+		height: 50px;
+		text-align:center;
+		width:100%;
+		margin-left:-5px;
+		margin-right:5px;
+		background-color:black;
+		color:white;
+		opacity:50%;
 	}
 
 }
