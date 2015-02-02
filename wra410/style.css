@@ -27,21 +27,22 @@
 	
 	#topbar {
 		position:fixed;
-		width:100%;
+		width:110%;
 		border-top:2px solid black;
 		margin-top:-68px;
+		margin-left:-5px;
 	}
   
 	 #navi {
-	  position:fixed;
-	    margin-top:-91px;
-	    margin-left:40%;
-	    width:550px;
-	    height:35px;
-	    font-size:20px;
-	    font-family: "Architects Daughter", serif;
-	    font-weight:none;
-	    text-align:cetner;
+		position:fixed;
+		margin-top:-91px;
+		margin-left:40%;
+		width:550px;
+		height:35px;
+		font-size:20px;
+		font-family: "Architects Daughter", serif;
+		font-weight:none;
+		text-align:cetner;
 	  }
 	
 	#navi ul {
@@ -63,10 +64,11 @@
 	
 	#bottom {
 		position:fixed;
-		width:100%;
+		width:110%;
 		height:3px;
 		border-top:2px solid black;
 		margin-top:-42px;
+		margin-left:-5px;
 	}
 	
 	#info {
