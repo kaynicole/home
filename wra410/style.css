@@ -96,5 +96,100 @@
 }
 
 @media screen and (max-device-width: 480px) {
+	
+
+	body {
+		background-color:#b0c4de;
+		font-size:12px;
+		font-family: 'PT Serif', serif;
+	}
+
+	header {
+		position:fixed;
+		text-align:center;
+		font-family: 'Zeyada', serif;
+		font-style:italic;
+		font-size:25px;
+		width:100%;
+		margin-top:-50px;
+	}
+	
+	header::first-letter {
+		position:fixed;
+		font-size:200%;
+		font-family: 'Arizonia', serif;
+		background-color:white;
+		color:black;
+		border-radius:50%;
+	}
+	
+	#topbar {
+		position:fixed;
+		width:110%;
+		border-top:2px solid black;
+		margin-top:-68px;
+		margin-left:-20px;
+	}
+  
+	 #navi {
+		position:fixed;
+		margin-top:-91px;
+		margin-left:40%;
+		width:550px;
+		height:35px;
+		font-size:20px;
+		font-family: "Architects Daughter", serif;
+		font-weight:none;
+		text-align:cetner;
+	  }
+	
+	#navi ul {
+		height:auto;
+		padding: 8px 0px;
+		font-family: 'Architects Daughter', serif;
+	}
+	
+	#navi li {
+		display:inline;
+		padding:5px;
+		font-family: 'Architects Daughter', serif;
+	}
+	
+	#navi a {
+		text-decoration:none;
+		color:black;
+	 }
+	
+	#bottom {
+		position:fixed;
+		width:110%;
+		height:3px;
+		border-top:2px solid black;
+		margin-top:-42px;
+		margin-left:-20px;
+	}
+	
+	#info {
+		position:fixed;
+		background-color:white;
+		float:left;
+		height:200px;
+		width:100%;
+		border: 1px solid black;
+    		margin-top:130px;
+    		margin-left:40px;
+	}
+	
+	article {
+		position:fixed;
+		background-color:white;
+		margin-left:345px;
+		float:right;
+		height:500px;
+		width:100%;
+		border:1px solid black;
+    		margin-top:210px;
+    		overflow:auto;
+	}
 
 }
