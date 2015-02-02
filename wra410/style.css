@@ -73,20 +73,25 @@
 	
 	#info {
 		position:fixed;
+		background-color:white;
 		float:left;
-		height:500px;
+		height:400px;
 		width:300px;
 		border: 1px solid black;
-    		margin-top:200px;
+    		margin-top:130px;
+    		margin-left:40px;
 	}
 	
 	article {
 		position:fixed;
+		background-color:white;
+		margin-left:345px;
 		float:right;
-		height:500px;
+		height:400px;
 		width:600px;
 		border:1px solid black;
-    		margin-top:200px;
+    		margin-top:130px;
+    		overflow:auto;
 	}
 
 @media screen and (max-device-width: 480px) {
