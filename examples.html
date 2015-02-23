@@ -13,15 +13,14 @@
     background: red;
     -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
     animation: myfirst 5s;
+    animation-direction:alternate;
+    animation-duration:infinite;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes myfirst {
     from {background: red;}
     to {background: yellow;}
-    animation-direction:alternate;
-    animation-duration:infinite;
-    
 }
 
 /* Standard syntax */
