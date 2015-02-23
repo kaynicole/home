@@ -7,9 +7,9 @@
 	<title>CSS3 Animations Examples</title>
 	
 	<style> 
-div {
-    width: 100px;
-    height: 100px;
+#box {
+    width: 200px;
+    height: 200px;
     background: red;
     -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
     animation: myfirst 5s;
@@ -19,6 +19,9 @@ div {
 @-webkit-keyframes myfirst {
     from {background: red;}
     to {background: yellow;}
+    animation-direction:alternate;
+    animation-duration:infinite;
+    
 }
 
 /* Standard syntax */
@@ -27,9 +30,10 @@ div {
     to {background: yellow;}
 }
 </style>
+
 </head>
 <body>
-<div></div>
+<div id="box"></div>
 </body>
   
 </html>
