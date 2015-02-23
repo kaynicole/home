@@ -5,6 +5,28 @@
 	<link type="text/css" rel="stylesheet" href="examplesstyle.css" />
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'/>
 	<title>CSS3 Animations Examples</title>
+	
+	<style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}
+}
+</style>
 </head>
 <body>
 <div></div>
